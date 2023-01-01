@@ -1,4 +1,4 @@
-# hangman
+# BMICalculator
 
 A new Flutter project.
 
