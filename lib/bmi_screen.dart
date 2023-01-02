@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:BMICalculator/bmi_result_screen.dart';
 
