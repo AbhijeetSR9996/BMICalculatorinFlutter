@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:BMICalculator/bmi_screen.dart';
-//import 'package:share_plus/share.dart';
 import 'package:share/share.dart';
 
 class BMIResultScreen extends StatelessWidget
@@ -61,7 +60,6 @@ class BMIResultScreen extends StatelessWidget
                       children: [
                         FloatingActionButton(
                           onPressed: (){
-                            //Share.share('hey! check out this new app https://play.google.com/store/search?q=pub%3ADivTag&c=apps');
                             Share.share('please checkout my app on https://play.google.com/store', subject: 'It is a bmi checking application!');
                           },
                           heroTag: 'age-',
