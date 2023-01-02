@@ -33,20 +33,17 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     super.initState();
     Timer(const Duration(seconds: 3),
-        //()=>Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => SecondScreen())));
             ()=>Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => BMI_Screen())));
   }
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.white,
-      //child: FlutterLogo(size: MediaQuery.of(context).size.height),
+      color: Color.fromRGBO(10, 15, 30, 1.0),
       child: const Center(
         child: Text(
-          "BMI Calculator App",
+          "BMI Calculator",
           style: TextStyle(
-            color: Colors.black,
-            //color: const Color.fromRGBO(10, 15, 30, 1.0),
+            color: Colors.white,
             fontSize: 35.0,
           ),
         ),
